@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "montserrat-bold";
+    src: url('font/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: "montserrat-semibold";
+    src: url('font/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: "montserrat-light";
+    src: url('font/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: "montserrat-regular";
+    src: url('font/Montserrat-Regular.ttf');
+}
+.list-container{
+    list-style-type: none;
+    margin: 10px;
+}
+.heading{
+    margin-bottom: 0px;
+    font-family: "montserrat-bold";
+}
+.iconstyle{
+    position: relative;
+    border-bottom: rgb(177, 169, 169) solid 2px;
+    margin-top: 20px;
+}
+.sub-head{
+    color: rgb(95, 86, 86);
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "montserrat-light";
+}
+.iconstyle::before {
+    content: "\e903";
+    font-family: 'icomoon';
+    font-size: 30px;
+    position: absolute;
+    left: -3%;
+}
+.style-green::before{
+    color: green;
+}
+.style-blue::before{
+    color: blue;
+}
+.style-yellow::before{
+    color: yellow;
+}
+.double-quotes::before{
+    content: '\e905';
+    color: green;
+    font-family: 'icomoon';
+    position: absolute;
+    left: -2%;
+    font-size: 20px;
+}
+.double-quotes{
+    position: relative;
+    margin: 50px;
+    color: grey;
+    font-family: "montserrat-semibold";
+}
+.icon-arrow::after{
+    content: '\e904';
+    font-family: 'icomoon';
+    position: absolute;   
+}
+.icon-arrow{
+    text-decoration: none;
+    color: green;
+    position: relative;
+    font-family: "montserrat-regular";
+}
+.a-container{
+    position: absolute;
+    top: -0%;
+    left: 90%;
+}
